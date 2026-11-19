@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.10.28-126",
+  "sourceCommit": null,
+  "baseline": 900,
+  "styles": {
+    "kaishu": {
+      "label": "楷书",
+      "defaultTier": "g1",
+      "tiers": {
+        "g1": {
+          "index": "/glyph/index/kaishu/g1.json",
+          "pack": "/glyph-pack/grade1.json",
+          "chars": "/glyph/kaishu/{char}.json",
+          "count": 300,
+          "indexBytes": 5215
+        },
+        "all": {
+          "index": "/glyph/index/kaishu/all.json",
+          "pack": null,
+          "chars": "/glyph/kaishu/{char}.json",
+          "count": 3509,
+          "indexBytes": 61883
+        }
+      }
+    }
+  },
+  "catalog": {
+    "index": "/glyph/catalog/index.json",
+    "volumes": 12
+  },
+  "knowledge": {
+    "rules": "/glyph/knowledge/rules.json"
+  }
+}
